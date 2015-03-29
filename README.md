@@ -8,8 +8,10 @@ by [Debra Mersnick](www.foodformyneighbors.com)
 
 This README documents necessary steps to get the application up and running.
 
-* Ruby version
-		4.1.8
+* Ruby version: 2.1.5-p273 (i386-mingw32)
+	Ruby Gems version: 2.2.3
+	Rack version: 1.5
+	Rails version: 4.1.8
 
 * System dependencies 
 		coffee-rails (~> 4.0.0)
@@ -32,6 +34,7 @@ This README documents necessary steps to get the application up and running.
 * How to run the test suite
 
 * Services (job queues, cache servers, search engines, etc.)
+		JavaScript Runtime: Node.js(V8)
 
 * Deployment instructions
 
