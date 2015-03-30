@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'pages#home'
-  get 'about' => 'pages#about'
+  get 'about' => 'pages#about' #whatever you put after the get, creates the route path i.e. about_path.
   get 'locations' => 'pages#locations'
   get 'store' => 'pages#store'
   get 'education' => 'pages#education'
