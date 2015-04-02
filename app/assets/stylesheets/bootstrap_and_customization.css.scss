@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+$font-family-sans-serif:			'Handlee';
 $body-bg: #FCF5BF;
 $navbar-inverse-bg: #776045;
 $navbar-inverse-link-color: #FCF5BF;
+
 $brand-primary: #0092b2;
 $jumbotron-bg: #C9DE55;
+$icon-font-path: 							'bootstrap/';
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
