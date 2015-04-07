@@ -3,10 +3,10 @@ class PagesController < ApplicationController
   end
   def about
   end
-  def locations
-  end
-  def store
+   def pantry
   end
   def education
+  end
+  def community
   end
 end

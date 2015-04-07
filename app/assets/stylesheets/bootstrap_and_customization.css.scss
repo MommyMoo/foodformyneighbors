@@ -9,6 +9,7 @@ $brand-primary: #0092b2;
 $jumbotron-bg: #C9DE55;
 $icon-font-path: 							'bootstrap/';
 
+
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 
@@ -19,3 +20,9 @@ $icon-font-path: 							'bootstrap/';
 .navbar-brand {
 	font-weight: bold;
 }
+
+.navbar {
+	magin-bottom:70px;
+}
+
+

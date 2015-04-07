@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   root 'pages#home'
   get 'about' => 'pages#about' #whatever you put after the get, creates the route path i.e. about_path.
-  get 'locations' => 'pages#locations'
-  get 'store' => 'pages#store'
+  get 'community' => 'pages#community'
+  get 'pantry' => 'pages#pantry'
   get 'education' => 'pages#education'
 
   # The priority is based upon order of creation: first created -> highest priority.
